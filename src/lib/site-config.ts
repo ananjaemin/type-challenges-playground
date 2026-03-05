@@ -3,7 +3,7 @@ export const siteConfig = {
 	title: "TypeScript Challenge Playground",
 	description:
 		"Solve type-level TypeScript challenges in your browser with real-time type checking",
-	url: "https://ts-challenges.vercel.app",
+	url: "https://type-challenges-playground.vercel.app",
 	github: {
 		owner: "https://github.com/ananjaemin",
 		source: "https://github.com/type-challenges/type-challenges",
