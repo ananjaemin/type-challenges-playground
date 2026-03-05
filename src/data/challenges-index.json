@@ -1,0 +1,2108 @@
+[
+	{
+		"id": 13,
+		"slug": "00013-warm-hello-world",
+		"title": "Hello World",
+		"difficulty": "warm",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": []
+	},
+	{
+		"id": 4,
+		"slug": "00004-easy-pick",
+		"title": "Pick",
+		"difficulty": "easy",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["union, built-in"]
+	},
+	{
+		"id": 7,
+		"slug": "00007-easy-readonly",
+		"title": "Readonly",
+		"difficulty": "easy",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["built-in, readonly, object-keys"]
+	},
+	{
+		"id": 11,
+		"slug": "00011-easy-tuple-to-object",
+		"title": "Tuple to Object",
+		"difficulty": "easy",
+		"author": {
+			"name": "sinoon",
+			"email": "sinoon1218@gamil.com",
+			"github": "sinoon"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 14,
+		"slug": "00014-easy-first",
+		"title": "First of Array",
+		"difficulty": "easy",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 18,
+		"slug": "00018-easy-tuple-length",
+		"title": "Length of Tuple",
+		"difficulty": "easy",
+		"author": {
+			"name": "sinoon",
+			"email": "sinoon1218@gamil.com",
+			"github": "sinoon"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 43,
+		"slug": "00043-easy-exclude",
+		"title": "Exclude",
+		"difficulty": "easy",
+		"author": {
+			"name": "Zheeeng",
+			"github": "zheeeng"
+		},
+		"tags": ["built-in, union"]
+	},
+	{
+		"id": 189,
+		"slug": "00189-easy-awaited",
+		"title": "Awaited",
+		"difficulty": "easy",
+		"author": {
+			"name": "Maciej Sikora",
+			"github": "maciejsikora"
+		},
+		"tags": ["promise, built-in"]
+	},
+	{
+		"id": 268,
+		"slug": "00268-easy-if",
+		"title": "If",
+		"difficulty": "easy",
+		"author": {
+			"name": "Pavel Glushkov",
+			"github": "pashutk"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 533,
+		"slug": "00533-easy-concat",
+		"title": "Concat",
+		"difficulty": "easy",
+		"author": {
+			"name": "Andrey Krasovsky",
+			"github": "bre30kra69cs"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 898,
+		"slug": "00898-easy-includes",
+		"title": "Includes",
+		"difficulty": "easy",
+		"author": {
+			"name": "Unknown",
+			"github": "kynefuk"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 3057,
+		"slug": "03057-easy-push",
+		"title": "Push",
+		"difficulty": "easy",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 3060,
+		"slug": "03060-easy-unshift",
+		"title": "Unshift",
+		"difficulty": "easy",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 3312,
+		"slug": "03312-easy-parameters",
+		"title": "Parameters",
+		"difficulty": "easy",
+		"author": {
+			"name": "midorizemi",
+			"github": "midorizemi"
+		},
+		"tags": ["infer, tuple, built-in"]
+	},
+	{
+		"id": 2,
+		"slug": "00002-medium-return-type",
+		"title": "Get Return Type",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["infer, built-in"]
+	},
+	{
+		"id": 3,
+		"slug": "00003-medium-omit",
+		"title": "Omit",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["union, built-in"]
+	},
+	{
+		"id": 8,
+		"slug": "00008-medium-readonly-2",
+		"title": "Readonly 2",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["readonly, object-keys"]
+	},
+	{
+		"id": 9,
+		"slug": "00009-medium-deep-readonly",
+		"title": "Deep Readonly",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["readonly, object-keys, deep"]
+	},
+	{
+		"id": 10,
+		"slug": "00010-medium-tuple-to-union",
+		"title": "Tuple to Union",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["infer, tuple, union"]
+	},
+	{
+		"id": 12,
+		"slug": "00012-medium-chainable-options",
+		"title": "Chainable Options",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["application"]
+	},
+	{
+		"id": 15,
+		"slug": "00015-medium-last",
+		"title": "Last of Array",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 16,
+		"slug": "00016-medium-pop",
+		"title": "Pop",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 20,
+		"slug": "00020-medium-promise-all",
+		"title": "Promise.all",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["array, promise"]
+	},
+	{
+		"id": 62,
+		"slug": "00062-medium-type-lookup",
+		"title": "Type Lookup",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["union, map"]
+	},
+	{
+		"id": 106,
+		"slug": "00106-medium-trimleft",
+		"title": "Trim Left",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 108,
+		"slug": "00108-medium-trim",
+		"title": "Trim",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 110,
+		"slug": "00110-medium-capitalize",
+		"title": "Capitalize",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 116,
+		"slug": "00116-medium-replace",
+		"title": "Replace",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 119,
+		"slug": "00119-medium-replaceall",
+		"title": "ReplaceAll",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 191,
+		"slug": "00191-medium-append-argument",
+		"title": "Append Argument",
+		"difficulty": "medium",
+		"author": {
+			"name": "Maciej Sikora",
+			"github": "maciejsikora"
+		},
+		"tags": ["arguments"]
+	},
+	{
+		"id": 296,
+		"slug": "00296-medium-permutation",
+		"title": "Permutation",
+		"difficulty": "medium",
+		"author": {
+			"name": "Naoto Ikuno",
+			"github": "pandanoir"
+		},
+		"tags": ["union"]
+	},
+	{
+		"id": 298,
+		"slug": "00298-medium-length-of-string",
+		"title": "Length of String",
+		"difficulty": "medium",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 459,
+		"slug": "00459-medium-flatten",
+		"title": "Flatten",
+		"difficulty": "medium",
+		"author": {
+			"name": "zhouyiming",
+			"github": "chbro"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 527,
+		"slug": "00527-medium-append-to-object",
+		"title": "Append to object",
+		"difficulty": "medium",
+		"author": {
+			"name": "Andrey Krasovsky",
+			"github": "bre30kra69cs"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 529,
+		"slug": "00529-medium-absolute",
+		"title": "Absolute",
+		"difficulty": "medium",
+		"author": {
+			"name": "Andrey Krasovsky",
+			"github": "bre30kra69cs"
+		},
+		"tags": ["math, template-literal"]
+	},
+	{
+		"id": 531,
+		"slug": "00531-medium-string-to-union",
+		"title": "String to Union",
+		"difficulty": "medium",
+		"author": {
+			"name": "Andrey Krasovsky",
+			"github": "bre30kra69cs"
+		},
+		"tags": ["union, string"]
+	},
+	{
+		"id": 599,
+		"slug": "00599-medium-merge",
+		"title": "Merge",
+		"difficulty": "medium",
+		"author": {
+			"name": "ZYSzys",
+			"github": "ZYSzys"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 612,
+		"slug": "00612-medium-kebabcase",
+		"title": "KebabCase",
+		"difficulty": "medium",
+		"author": {
+			"name": "Johnson Chu",
+			"github": "johnsoncodehk"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 645,
+		"slug": "00645-medium-diff",
+		"title": "Diff",
+		"difficulty": "medium",
+		"author": {
+			"name": "ZYSzys",
+			"github": "ZYSzys"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 949,
+		"slug": "00949-medium-anyof",
+		"title": "AnyOf",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "kynefuk"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 1042,
+		"slug": "01042-medium-isnever",
+		"title": "IsNever",
+		"difficulty": "medium",
+		"author": {
+			"name": "hiroya iizuka",
+			"github": "hiroyaiizuka"
+		},
+		"tags": ["union, utils"]
+	},
+	{
+		"id": 1097,
+		"slug": "01097-medium-isunion",
+		"title": "IsUnion",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "bencor"
+		},
+		"tags": ["union"]
+	},
+	{
+		"id": 1130,
+		"slug": "01130-medium-replacekeys",
+		"title": "ReplaceKeys",
+		"difficulty": "medium",
+		"author": {
+			"name": "贱贱",
+			"github": "lullabyjune"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 1367,
+		"slug": "01367-medium-remove-index-signature",
+		"title": "Remove Index Signature",
+		"difficulty": "medium",
+		"author": {
+			"name": "hiroya iizuka",
+			"github": "hiroyaiizuka"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 1978,
+		"slug": "01978-medium-percentage-parser",
+		"title": "Percentage Parser",
+		"difficulty": "medium",
+		"author": {
+			"name": "SSShuai1999",
+			"github": "SSShuai1999"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 2070,
+		"slug": "02070-medium-drop-char",
+		"title": "Drop Char",
+		"difficulty": "medium",
+		"author": {
+			"name": "CaptainOfPhB",
+			"github": "CaptainOfPhB"
+		},
+		"tags": ["template-literal, infer"]
+	},
+	{
+		"id": 2257,
+		"slug": "02257-medium-minusone",
+		"title": "MinusOne",
+		"difficulty": "medium",
+		"author": {
+			"name": "Mustafo Faiz",
+			"github": "fayzzzm"
+		},
+		"tags": ["math"]
+	},
+	{
+		"id": 2595,
+		"slug": "02595-medium-pickbytype",
+		"title": "PickByType",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 2688,
+		"slug": "02688-medium-startswith",
+		"title": "StartsWith",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 2693,
+		"slug": "02693-medium-endswith",
+		"title": "EndsWith",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 2757,
+		"slug": "02757-medium-partialbykeys",
+		"title": "PartialByKeys",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 2759,
+		"slug": "02759-medium-requiredbykeys",
+		"title": "RequiredByKeys",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 2793,
+		"slug": "02793-medium-mutable",
+		"title": "Mutable",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["readonly, object-keys"]
+	},
+	{
+		"id": 2852,
+		"slug": "02852-medium-omitbytype",
+		"title": "OmitByType",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 2946,
+		"slug": "02946-medium-objectentries",
+		"title": "ObjectEntries",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 3062,
+		"slug": "03062-medium-shift",
+		"title": "Shift",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 3188,
+		"slug": "03188-medium-tuple-to-nested-object",
+		"title": "Tuple to Nested Object",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object, tuple"]
+	},
+	{
+		"id": 3192,
+		"slug": "03192-medium-reverse",
+		"title": "Reverse",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 3196,
+		"slug": "03196-medium-flip-arguments",
+		"title": "Flip Arguments",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["arguments"]
+	},
+	{
+		"id": 3243,
+		"slug": "03243-medium-flattendepth",
+		"title": "FlattenDepth",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 3326,
+		"slug": "03326-medium-bem-style-string",
+		"title": "BEM style string",
+		"difficulty": "medium",
+		"author": {
+			"name": "Songhn",
+			"github": "songhn233"
+		},
+		"tags": ["template-literal, union, tuple"]
+	},
+	{
+		"id": 4179,
+		"slug": "04179-medium-flip",
+		"title": "Flip",
+		"difficulty": "medium",
+		"author": {
+			"name": "Farhan Kathawala",
+			"github": "kathawala"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 4182,
+		"slug": "04182-medium-fibonacci-sequence",
+		"title": "Fibonacci Sequence",
+		"difficulty": "medium",
+		"author": {
+			"name": "windliang",
+			"github": "wind-liang"
+		},
+		"tags": []
+	},
+	{
+		"id": 4260,
+		"slug": "04260-medium-nomiwase",
+		"title": "AllCombinations",
+		"difficulty": "medium",
+		"author": {
+			"name": "蛭子屋双六",
+			"github": "sugoroku-y"
+		},
+		"tags": ["template-literal, infer, union"]
+	},
+	{
+		"id": 4425,
+		"slug": "04425-medium-greater-than",
+		"title": "Greater Than",
+		"difficulty": "medium",
+		"author": {
+			"name": "ch3cknull",
+			"github": "ch3cknull"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 4471,
+		"slug": "04471-medium-zip",
+		"title": "Zip",
+		"difficulty": "medium",
+		"author": {
+			"name": "キリサメ qianxi",
+			"github": "qianxi0410"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 4484,
+		"slug": "04484-medium-istuple",
+		"title": "IsTuple",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 4499,
+		"slug": "04499-medium-chunk",
+		"title": "Chunk",
+		"difficulty": "medium",
+		"author": {
+			"name": "キリサメ qianxi",
+			"github": "qianxi0410"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 4518,
+		"slug": "04518-medium-fill",
+		"title": "Fill",
+		"difficulty": "medium",
+		"author": {
+			"name": "キリサメ qianxi",
+			"github": "qianxi0410"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 4803,
+		"slug": "04803-medium-trim-right",
+		"title": "Trim Right",
+		"difficulty": "medium",
+		"author": {
+			"name": "Yugang Cao",
+			"github": "Talljack"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 5117,
+		"slug": "05117-medium-without",
+		"title": "Without",
+		"difficulty": "medium",
+		"author": {
+			"name": "Pineapple",
+			"github": "Pineapple0919"
+		},
+		"tags": ["union, array"]
+	},
+	{
+		"id": 5140,
+		"slug": "05140-medium-trunc",
+		"title": "Trunc",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 5153,
+		"slug": "05153-medium-indexof",
+		"title": "IndexOf",
+		"difficulty": "medium",
+		"author": {
+			"name": "Pineapple",
+			"github": "Pineapple0919"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 5310,
+		"slug": "05310-medium-join",
+		"title": "Join",
+		"difficulty": "medium",
+		"author": {
+			"name": "Pineapple",
+			"github": "Pineapple0919"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 5317,
+		"slug": "05317-medium-lastindexof",
+		"title": "LastIndexOf",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 5360,
+		"slug": "05360-medium-unique",
+		"title": "Unique",
+		"difficulty": "medium",
+		"author": {
+			"name": "Pineapple",
+			"github": "Pineapple0919"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 5821,
+		"slug": "05821-medium-maptypes",
+		"title": "MapTypes",
+		"difficulty": "medium",
+		"author": {
+			"name": "Krzysztof \"Wokay\" Łokaj",
+			"github": "wokayme"
+		},
+		"tags": ["map, object, utils"]
+	},
+	{
+		"id": 7544,
+		"slug": "07544-medium-construct-tuple",
+		"title": "Construct Tuple",
+		"difficulty": "medium",
+		"author": {
+			"name": "Lo",
+			"github": "LoTwT"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 8640,
+		"slug": "08640-medium-number-range",
+		"title": "Number Range",
+		"difficulty": "medium",
+		"author": {
+			"name": "AaronGuo",
+			"github": "HongxuanG"
+		},
+		"tags": []
+	},
+	{
+		"id": 8767,
+		"slug": "08767-medium-combination",
+		"title": "Combination",
+		"difficulty": "medium",
+		"author": {
+			"name": "Homyee King",
+			"github": "HomyeeKing"
+		},
+		"tags": ["array, application, string"]
+	},
+	{
+		"id": 8987,
+		"slug": "08987-medium-subsequence",
+		"title": "Subsequence",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["union"]
+	},
+	{
+		"id": 9142,
+		"slug": "09142-medium-checkrepeatedchars",
+		"title": "CheckRepeatedChars",
+		"difficulty": "medium",
+		"author": {
+			"name": "Hong",
+			"github": "RThong"
+		},
+		"tags": ["union, string"]
+	},
+	{
+		"id": 9286,
+		"slug": "09286-medium-firstuniquecharindex",
+		"title": "FirstUniqueCharIndex",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["string"]
+	},
+	{
+		"id": 9616,
+		"slug": "09616-medium-parse-url-params",
+		"title": "Parse URL Params",
+		"difficulty": "medium",
+		"author": {
+			"name": "Anderson. J",
+			"github": "andersonjoseph"
+		},
+		"tags": ["infer, string, template-literal"]
+	},
+	{
+		"id": 9896,
+		"slug": "09896-medium-get-middle-element",
+		"title": "GetMiddleElement",
+		"difficulty": "medium",
+		"author": {
+			"name": "凤之兮原",
+			"github": "kongmingLatern"
+		},
+		"tags": []
+	},
+	{
+		"id": 9898,
+		"slug": "09898-medium-zhao-chu-mu-biao-shu-zu-zhong-zhi-chu-xian-guo-yi-ci-de-yuan-su",
+		"title": "Appear only once",
+		"difficulty": "medium",
+		"author": {
+			"name": "X.Q. Chen",
+			"github": "brenner8023"
+		},
+		"tags": []
+	},
+	{
+		"id": 9989,
+		"slug": "09989-medium-tong-ji-shu-zu-zhong-de-yuan-su-ge-shu",
+		"title": "Count Element Number To Object",
+		"difficulty": "medium",
+		"author": {
+			"name": "凤之兮原",
+			"github": "kongmingLatern"
+		},
+		"tags": []
+	},
+	{
+		"id": 10969,
+		"slug": "10969-medium-integer",
+		"title": "Integer",
+		"difficulty": "medium",
+		"author": {
+			"name": "HuaBing",
+			"github": "hbcraft"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 16259,
+		"slug": "16259-medium-to-primitive",
+		"title": "ToPrimitive",
+		"difficulty": "medium",
+		"author": {
+			"name": "前端子鱼",
+			"github": "mwc"
+		},
+		"tags": []
+	},
+	{
+		"id": 17973,
+		"slug": "17973-medium-deepmutable",
+		"title": "DeepMutable",
+		"difficulty": "medium",
+		"author": {
+			"name": "cutefcc",
+			"github": "cutefcc"
+		},
+		"tags": ["readonly, deep"]
+	},
+	{
+		"id": 18142,
+		"slug": "18142-medium-all",
+		"title": "All",
+		"difficulty": "medium",
+		"author": {
+			"name": "cutefcc",
+			"github": "cutefcc"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 18220,
+		"slug": "18220-medium-filter",
+		"title": "Filter",
+		"difficulty": "medium",
+		"author": {
+			"name": "Mu-Hun",
+			"github": "mu-hun"
+		},
+		"tags": ["array, filter"]
+	},
+	{
+		"id": 19749,
+		"slug": "19749-medium-isequal",
+		"title": "IsEqual",
+		"difficulty": "medium",
+		"author": {
+			"name": "Takahiro Kato",
+			"github": "doz13189"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 21104,
+		"slug": "21104-medium-findall",
+		"title": "FindAll",
+		"difficulty": "medium",
+		"author": {
+			"name": "tunamagur0",
+			"github": "tunamagur0"
+		},
+		"tags": ["template-literal, string"]
+	},
+	{
+		"id": 21106,
+		"slug": "21106-medium-zu-he-jian-lei-xing-combination-key-type",
+		"title": "Combination key type",
+		"difficulty": "medium",
+		"author": {
+			"name": "Nauxscript",
+			"github": "Nauxscript"
+		},
+		"tags": []
+	},
+	{
+		"id": 21220,
+		"slug": "21220-medium-permutations-of-tuple",
+		"title": "Permutations of Tuple",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "gaac510"
+		},
+		"tags": ["union, tuple, conditional type, recursion"]
+	},
+	{
+		"id": 25170,
+		"slug": "25170-medium-replace-first",
+		"title": "Replace First",
+		"difficulty": "medium",
+		"author": {
+			"name": "George Flinn",
+			"github": "ProjectFlinn"
+		},
+		"tags": []
+	},
+	{
+		"id": 25270,
+		"slug": "25270-medium-transpose",
+		"title": "Transpose",
+		"difficulty": "medium",
+		"author": {
+			"name": "Apollo Wayne",
+			"github": "Shinerising"
+		},
+		"tags": ["array, math"]
+	},
+	{
+		"id": 26401,
+		"slug": "26401-medium-json-schema-to-typescript",
+		"title": "JSON Schema to TypeScript",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "aswinsvijay"
+		},
+		"tags": ["JSON"]
+	},
+	{
+		"id": 27133,
+		"slug": "27133-medium-square",
+		"title": "Square",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "aswinsvijay"
+		},
+		"tags": ["tuple, array, math"]
+	},
+	{
+		"id": 27152,
+		"slug": "27152-medium-triangular-number",
+		"title": "Triangular number",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "aswinsvijay"
+		},
+		"tags": ["tuple, array, math"]
+	},
+	{
+		"id": 27862,
+		"slug": "27862-medium-cartesianproduct",
+		"title": "CartesianProduct",
+		"difficulty": "medium",
+		"author": {
+			"name": "jazelly",
+			"github": "jazelly"
+		},
+		"tags": ["union"]
+	},
+	{
+		"id": 27932,
+		"slug": "27932-medium-mergeall",
+		"title": "MergeAll",
+		"difficulty": "medium",
+		"author": {
+			"name": "scarf",
+			"github": "scarf005"
+		},
+		"tags": ["object, array, union"]
+	},
+	{
+		"id": 27958,
+		"slug": "27958-medium-checkrepeatedtuple",
+		"title": "CheckRepeatedTuple",
+		"difficulty": "medium",
+		"author": {
+			"name": "bowen",
+			"github": "jiaowoxiaobala"
+		},
+		"tags": []
+	},
+	{
+		"id": 28333,
+		"slug": "28333-medium-public-type",
+		"title": "Public Type",
+		"difficulty": "medium",
+		"author": {
+			"name": "KaiKai",
+			"github": "kaikaibenkai"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 29650,
+		"slug": "29650-medium-extracttoobject",
+		"title": "ExtractToObject",
+		"difficulty": "medium",
+		"author": {
+			"name": "Maxim Bazuev",
+			"github": "bazuka5801"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 29785,
+		"slug": "29785-medium-deep-omit",
+		"title": "Deep Omit",
+		"difficulty": "medium",
+		"author": {
+			"name": "bowen",
+			"github": "jiaowoxiaobala"
+		},
+		"tags": ["omit object-keys deep"]
+	},
+	{
+		"id": 30301,
+		"slug": "30301-medium-isodd",
+		"title": "IsOdd",
+		"difficulty": "medium",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["string"]
+	},
+	{
+		"id": 30430,
+		"slug": "30430-medium-tower-of-hanoi",
+		"title": "Tower of hanoi",
+		"difficulty": "medium",
+		"author": {
+			"name": "Unknown",
+			"github": "aswinsvijay"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 30958,
+		"slug": "30958-medium-pascals-triangle",
+		"title": "Pascal's triangle",
+		"difficulty": "medium",
+		"author": {
+			"name": "Aswin S Vijay",
+			"github": "aswinsvijay"
+		},
+		"tags": ["array, math"]
+	},
+	{
+		"id": 30970,
+		"slug": "30970-medium-shitariteraru",
+		"title": "IsFixedStringLiteralType",
+		"difficulty": "medium",
+		"author": {
+			"name": "蛭子屋双六",
+			"github": "sugoroku-y"
+		},
+		"tags": []
+	},
+	{
+		"id": 34007,
+		"slug": "34007-medium-compare-array-length",
+		"title": "Compare Array Length",
+		"difficulty": "medium",
+		"author": {
+			"name": "alviner",
+			"github": "ScriptBloom"
+		},
+		"tags": ["recursion, array"]
+	},
+	{
+		"id": 34857,
+		"slug": "34857-medium-defined-partial-record",
+		"title": "Defined Partial Record",
+		"difficulty": "medium",
+		"author": {
+			"name": "Aleksandr Trutanov",
+			"github": "alex-altay"
+		},
+		"tags": []
+	},
+	{
+		"id": 35045,
+		"slug": "35045-medium-longest-common-prefix",
+		"title": "Longest Common Prefix",
+		"difficulty": "medium",
+		"author": {
+			"name": "Tom Cleary",
+			"github": "thomcleary"
+		},
+		"tags": []
+	},
+	{
+		"id": 35191,
+		"slug": "35191-medium-trace",
+		"title": "Trace",
+		"difficulty": "medium",
+		"author": {
+			"name": "csharpython",
+			"github": "csharpython"
+		},
+		"tags": []
+	},
+	{
+		"id": 35252,
+		"slug": "35252-medium-isalphabet",
+		"title": "IsAlphabet",
+		"difficulty": "medium",
+		"author": {
+			"name": "Kanon",
+			"github": "ysknsid25"
+		},
+		"tags": []
+	},
+	{
+		"id": 35991,
+		"slug": "35991-medium-myuppercase",
+		"title": "MyUppercase",
+		"difficulty": "medium",
+		"author": {
+			"name": "NaNix",
+			"github": "fusheng33"
+		},
+		"tags": []
+	},
+	{
+		"id": 6,
+		"slug": "00006-hard-simple-vue",
+		"title": "Simple Vue",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["this, application, vue"]
+	},
+	{
+		"id": 17,
+		"slug": "00017-hard-currying-1",
+		"title": "Currying 1",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 55,
+		"slug": "00055-hard-union-to-intersection",
+		"title": "Union to Intersection",
+		"difficulty": "hard",
+		"author": {
+			"name": "Zheeeng",
+			"github": "zheeeng"
+		},
+		"tags": ["utils, infer"]
+	},
+	{
+		"id": 57,
+		"slug": "00057-hard-get-required",
+		"title": "Get Required",
+		"difficulty": "hard",
+		"author": {
+			"name": "Zheeeng",
+			"github": "zheeeng"
+		},
+		"tags": ["utils, infer"]
+	},
+	{
+		"id": 59,
+		"slug": "00059-hard-get-optional",
+		"title": "Get Optional",
+		"difficulty": "hard",
+		"author": {
+			"name": "Zheeeng",
+			"github": "zheeeng"
+		},
+		"tags": ["utils, infer"]
+	},
+	{
+		"id": 89,
+		"slug": "00089-hard-required-keys",
+		"title": "Required Keys",
+		"difficulty": "hard",
+		"author": {
+			"name": "yituan",
+			"github": "yi-tuan"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 90,
+		"slug": "00090-hard-optional-keys",
+		"title": "Optional Keys",
+		"difficulty": "hard",
+		"author": {
+			"name": "yituan",
+			"github": "yi-tuan"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 112,
+		"slug": "00112-hard-capitalizewords",
+		"title": "Capitalize Words",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 114,
+		"slug": "00114-hard-camelcase",
+		"title": "CamelCase",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 147,
+		"slug": "00147-hard-c-printf-parser",
+		"title": "C-printf Parser",
+		"difficulty": "hard",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 213,
+		"slug": "00213-hard-vue-basic-props",
+		"title": "Vue Basic Props",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["vue, application"]
+	},
+	{
+		"id": 223,
+		"slug": "00223-hard-isany",
+		"title": "IsAny",
+		"difficulty": "hard",
+		"author": {
+			"name": "Pavel Glushkov",
+			"github": "pashutk"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 270,
+		"slug": "00270-hard-typed-get",
+		"title": "Typed Get",
+		"difficulty": "hard",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["utils, template-literal"]
+	},
+	{
+		"id": 300,
+		"slug": "00300-hard-string-to-number",
+		"title": "String to Number",
+		"difficulty": "hard",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 399,
+		"slug": "00399-hard-tuple-filter",
+		"title": "Tuple Filter",
+		"difficulty": "hard",
+		"author": {
+			"name": "Ryo Hanafusa",
+			"github": "softoika"
+		},
+		"tags": ["tuple, infer"]
+	},
+	{
+		"id": 472,
+		"slug": "00472-hard-tuple-to-enum-object",
+		"title": "Tuple to Enum Object",
+		"difficulty": "hard",
+		"author": {
+			"name": "Ryo Hanafusa",
+			"github": "softoika"
+		},
+		"tags": ["tuple, template-literal"]
+	},
+	{
+		"id": 545,
+		"slug": "00545-hard-printf",
+		"title": "printf",
+		"difficulty": "hard",
+		"author": {
+			"name": "Unknown",
+			"github": "Bestmain-YS"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 553,
+		"slug": "00553-hard-deep-object-to-unique",
+		"title": "Deep object to unique",
+		"difficulty": "hard",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": ["deep"]
+	},
+	{
+		"id": 651,
+		"slug": "00651-hard-length-of-string-2",
+		"title": "Length of String 2",
+		"difficulty": "hard",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 730,
+		"slug": "00730-hard-union-to-tuple",
+		"title": "Union to Tuple",
+		"difficulty": "hard",
+		"author": {
+			"name": "Sg",
+			"github": "suica"
+		},
+		"tags": ["union, tuple, infer"]
+	},
+	{
+		"id": 847,
+		"slug": "00847-hard-string-join",
+		"title": "String Join",
+		"difficulty": "hard",
+		"author": {
+			"name": "Matt Davis",
+			"github": "tl-matt-davis"
+		},
+		"tags": []
+	},
+	{
+		"id": 956,
+		"slug": "00956-hard-deeppick",
+		"title": "DeepPick",
+		"difficulty": "hard",
+		"author": {
+			"name": "hiroya iizuka",
+			"github": "hiroyaiizuka"
+		},
+		"tags": ["deep"]
+	},
+	{
+		"id": 1290,
+		"slug": "01290-hard-pinia",
+		"title": "Pinia",
+		"difficulty": "hard",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["this, vue"]
+	},
+	{
+		"id": 1383,
+		"slug": "01383-hard-camelize",
+		"title": "Camelize",
+		"difficulty": "hard",
+		"author": {
+			"name": "Denis",
+			"github": "denchiklut"
+		},
+		"tags": ["union, recursion"]
+	},
+	{
+		"id": 2059,
+		"slug": "02059-hard-drop-string",
+		"title": "Drop String",
+		"difficulty": "hard",
+		"author": {
+			"name": "CaptainOfPhB",
+			"github": "CaptainOfPhB"
+		},
+		"tags": ["template-literal, infer"]
+	},
+	{
+		"id": 2822,
+		"slug": "02822-hard-split",
+		"title": "Split",
+		"difficulty": "hard",
+		"author": {
+			"name": "Andrea Simone Costa",
+			"github": "jfet97"
+		},
+		"tags": ["string,split,array,tuple"]
+	},
+	{
+		"id": 2828,
+		"slug": "02828-hard-classpublickeys",
+		"title": "ClassPublicKeys",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 2857,
+		"slug": "02857-hard-isrequiredkey",
+		"title": "IsRequiredKey",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 2949,
+		"slug": "02949-hard-objectfromentries",
+		"title": "ObjectFromEntries",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 3376,
+		"slug": "03376-medium-inordertraversal",
+		"title": "InorderTraversal",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["object"]
+	},
+	{
+		"id": 4037,
+		"slug": "04037-hard-ispalindrome",
+		"title": "IsPalindrome",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": ["string"]
+	},
+	{
+		"id": 5181,
+		"slug": "05181-hard-mutable-keys",
+		"title": "Mutable Keys",
+		"difficulty": "hard",
+		"author": {
+			"name": "Yugang Cao",
+			"github": "Talljack"
+		},
+		"tags": ["utils"]
+	},
+	{
+		"id": 5423,
+		"slug": "05423-hard-intersection",
+		"title": "Intersection",
+		"difficulty": "hard",
+		"author": {
+			"name": "Pineapple",
+			"github": "Pineapple0919"
+		},
+		"tags": ["union, array"]
+	},
+	{
+		"id": 6141,
+		"slug": "06141-hard-binary-to-decimal",
+		"title": "Binary to Decimal",
+		"difficulty": "hard",
+		"author": {
+			"name": "wotsushi",
+			"github": "wotsushi"
+		},
+		"tags": ["math"]
+	},
+	{
+		"id": 7258,
+		"slug": "07258-hard-object-key-paths",
+		"title": "Object Key Paths",
+		"difficulty": "hard",
+		"author": {
+			"name": "CattChen",
+			"github": "ChenKS12138"
+		},
+		"tags": ["object-keys"]
+	},
+	{
+		"id": 8804,
+		"slug": "08804-hard-two-sum",
+		"title": "Two Sum",
+		"difficulty": "hard",
+		"author": {
+			"name": "PsiloLau",
+			"github": "Psilocine"
+		},
+		"tags": ["array, math"]
+	},
+	{
+		"id": 9155,
+		"slug": "09155-hard-validdate",
+		"title": "ValidDate",
+		"difficulty": "hard",
+		"author": {
+			"name": "ch3cknull",
+			"github": "ch3cknull"
+		},
+		"tags": []
+	},
+	{
+		"id": 9160,
+		"slug": "09160-hard-assign",
+		"title": "Assign",
+		"difficulty": "hard",
+		"author": {
+			"name": "zhangxiaofan",
+			"github": "workkk98"
+		},
+		"tags": ["object, array"]
+	},
+	{
+		"id": 9384,
+		"slug": "09384-hard-maximum",
+		"title": "Maximum",
+		"difficulty": "hard",
+		"author": {
+			"name": "ch3cknull",
+			"github": "ch3cknull"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 9775,
+		"slug": "09775-hard-capitalize-nest-object-keys",
+		"title": "Capitalize Nest Object Keys",
+		"difficulty": "hard",
+		"author": {
+			"name": "MayanDev",
+			"github": "Mayandev"
+		},
+		"tags": ["object, array"]
+	},
+	{
+		"id": 13580,
+		"slug": "13580-hard-replace-union",
+		"title": "Replace Union",
+		"difficulty": "hard",
+		"author": {
+			"name": "Konstantin Barabanov",
+			"github": "crutch12"
+		},
+		"tags": []
+	},
+	{
+		"id": 14080,
+		"slug": "14080-hard-fizzbuzz",
+		"title": "FizzBuzz",
+		"difficulty": "hard",
+		"author": {
+			"name": "Lee Crosby",
+			"github": "Cygnut"
+		},
+		"tags": ["array, math, infer"]
+	},
+	{
+		"id": 14188,
+		"slug": "14188-hard-run-length-encoding",
+		"title": "Run-length encoding",
+		"difficulty": "hard",
+		"author": {
+			"name": "Hen Hedymdeith",
+			"github": "alfaproxima"
+		},
+		"tags": []
+	},
+	{
+		"id": 15260,
+		"slug": "15260-hard-tree-path-array",
+		"title": "Tree path array",
+		"difficulty": "hard",
+		"author": {
+			"name": "Neil Richter",
+			"github": "noook"
+		},
+		"tags": []
+	},
+	{
+		"id": 19458,
+		"slug": "19458-hard-snakecase",
+		"title": "SnakeCase",
+		"difficulty": "hard",
+		"author": {
+			"name": "Gabriel Vergnaud",
+			"github": "gvergnaud"
+		},
+		"tags": ["template-literal,string"]
+	},
+	{
+		"id": 25747,
+		"slug": "25747-hard-isnegativenumber",
+		"title": "IsNegativeNumber",
+		"difficulty": "hard",
+		"author": {
+			"name": "andrew jarrett",
+			"github": "ahrjarrett"
+		},
+		"tags": ["number, template-literal"]
+	},
+	{
+		"id": 28143,
+		"slug": "28143-hard-optionalundefined",
+		"title": "OptionalUndefined",
+		"difficulty": "hard",
+		"author": {
+			"name": "Jesus The Hun",
+			"github": "JesusTheHun"
+		},
+		"tags": []
+	},
+	{
+		"id": 30178,
+		"slug": "30178-hard-unique-items",
+		"title": "Unique Items",
+		"difficulty": "hard",
+		"author": {
+			"name": "Evgeniy",
+			"github": "bgenia"
+		},
+		"tags": ["tuple, application, cif"]
+	},
+	{
+		"id": 30575,
+		"slug": "30575-hard-bitwisexor",
+		"title": "BitwiseXOR",
+		"difficulty": "hard",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": []
+	},
+	{
+		"id": 31797,
+		"slug": "31797-hard-sudoku",
+		"title": "Sudoku",
+		"difficulty": "hard",
+		"author": {
+			"name": "Bruno Ladeia",
+			"github": "BrunoLad"
+		},
+		"tags": ["union, array, tuple, game"]
+	},
+	{
+		"id": 31824,
+		"slug": "31824-hard-length-of-string-3",
+		"title": "Length of String 3",
+		"difficulty": "hard",
+		"author": {
+			"name": "Eosellmay Li",
+			"github": "E0SelmY4V"
+		},
+		"tags": []
+	},
+	{
+		"id": 32427,
+		"slug": "32427-hard-unbox",
+		"title": "Unbox",
+		"difficulty": "hard",
+		"author": {
+			"name": "Julian Coy",
+			"github": "eXamadeus"
+		},
+		"tags": ["utils, promise, function, tuple, array"]
+	},
+	{
+		"id": 32532,
+		"slug": "32532-hard-binary-addition",
+		"title": "Binary Addition",
+		"difficulty": "hard",
+		"author": {
+			"name": "Finley Garton",
+			"github": "finleygn"
+		},
+		"tags": ["recursion, array"]
+	},
+	{
+		"id": 33763,
+		"slug": "33763-hard-union-to-object-from-key",
+		"title": "Union to Object from key",
+		"difficulty": "hard",
+		"author": {
+			"name": "clen cat",
+			"github": "a145789"
+		},
+		"tags": []
+	},
+	{
+		"id": 34286,
+		"slug": "34286-hard-take-elements",
+		"title": "Take Elements",
+		"difficulty": "hard",
+		"author": {
+			"name": "Eirik Måseidvåg",
+			"github": "Eirmas"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 35314,
+		"slug": "35314-hard-valid-sudoku",
+		"title": "Valid Sudoku",
+		"difficulty": "hard",
+		"author": {
+			"name": "Apollo Wayne",
+			"github": "Shinerising"
+		},
+		"tags": ["array, math, game"]
+	},
+	{
+		"id": 5,
+		"slug": "00005-extreme-readonly-keys",
+		"title": "Get Readonly Keys",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Anthony Fu",
+			"email": "hi@antfu.me",
+			"github": "antfu"
+		},
+		"tags": ["utils, object-keys"]
+	},
+	{
+		"id": 151,
+		"slug": "00151-extreme-query-string-parser",
+		"title": "Query String Parser",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["template-literal"]
+	},
+	{
+		"id": 216,
+		"slug": "00216-extreme-slice",
+		"title": "Slice",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Anthony Fu",
+			"github": "antfu"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 274,
+		"slug": "00274-extreme-integers-comparator",
+		"title": "Integers Comparator",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Pig Fang",
+			"github": "g-plane"
+		},
+		"tags": ["template-literal, math"]
+	},
+	{
+		"id": 462,
+		"slug": "00462-extreme-currying-2",
+		"title": "Currying 2",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Kim",
+			"github": "hubvue"
+		},
+		"tags": []
+	},
+	{
+		"id": 476,
+		"slug": "00476-extreme-sum",
+		"title": "Sum",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": ["math, template-literal"]
+	},
+	{
+		"id": 517,
+		"slug": "00517-extreme-multiply",
+		"title": "Multiply",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": ["math, template-literal"]
+	},
+	{
+		"id": 697,
+		"slug": "00697-extreme-tag",
+		"title": "Tag",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": []
+	},
+	{
+		"id": 734,
+		"slug": "00734-extreme-inclusive-range",
+		"title": "Inclusive Range",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Sg",
+			"github": "suica"
+		},
+		"tags": ["infer, array"]
+	},
+	{
+		"id": 741,
+		"slug": "00741-extreme-sort",
+		"title": "Sort",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Sg",
+			"github": "suica"
+		},
+		"tags": ["infer, array"]
+	},
+	{
+		"id": 869,
+		"slug": "00869-extreme-distributeunions",
+		"title": "DistributeUnions",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Gabriel Vergnaud",
+			"github": "gvergnaud"
+		},
+		"tags": []
+	},
+	{
+		"id": 925,
+		"slug": "00925-extreme-assert-array-index",
+		"title": "Assert Array Index",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Unknown",
+			"github": "uid11"
+		},
+		"tags": ["array"]
+	},
+	{
+		"id": 6228,
+		"slug": "06228-extreme-json-parser",
+		"title": "JSON Parser",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Hydration",
+			"github": "hydrati"
+		},
+		"tags": ["template-literal", "JSON"]
+	},
+	{
+		"id": 7561,
+		"slug": "07561-extreme-subtract",
+		"title": "Subtract",
+		"difficulty": "extreme",
+		"author": {
+			"name": "Lo",
+			"github": "LoTwT"
+		},
+		"tags": ["tuple"]
+	},
+	{
+		"id": 31447,
+		"slug": "31447-extreme-countreversepairs",
+		"title": "CountReversePairs",
+		"difficulty": "extreme",
+		"author": {
+			"name": "jiangshan",
+			"github": "jiangshanmeta"
+		},
+		"tags": []
+	},
+	{
+		"id": 31997,
+		"slug": "31997-extreme-parameter-intersection",
+		"title": "Parameter Intersection",
+		"difficulty": "extreme",
+		"author": {
+			"name": "David Blass",
+			"github": "ssalbdivad"
+		},
+		"tags": ["parameters, array, variadic, optional, rest, intersection"]
+	},
+	{
+		"id": 33345,
+		"slug": "33345-extreme-dynamic-route",
+		"title": "Dynamic Route",
+		"difficulty": "extreme",
+		"author": {
+			"name": "0753",
+			"github": "0753Ljuc"
+		},
+		"tags": []
+	}
+]

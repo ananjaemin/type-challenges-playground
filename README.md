@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+English | [한국어](README.ko.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
+
+# TypeScript Challenge Playground
+Solve type-level TypeScript challenges in the browser.
+
+## Description
+TypeScript Challenge Playground is a site for solving type-level TypeScript challenges from https://github.com/type-challenges/type-challenges directly in the browser. It includes 190 challenges across 5 difficulty levels (warm, easy, medium, hard, extreme) and a Monaco editor with real-time type checking.
+
+## Key Features
+- 190 type challenges from type-challenges repo
+- Monaco Editor with TypeScript strict mode
+- Real-time type diagnostics (pass/fail)
+- Difficulty filtering (warm/easy/medium/hard/extreme) + search
+- SSG (Static Site Generation) for all challenge pages
+- Dark mode UI with shadcn/ui
+
+## Tech Stack
+- Next.js 16 (App Router, SSG)
+- TypeScript 5
+- Tailwind CSS 4 + shadcn/ui
+- Monaco Editor (@monaco-editor/react)
+- Biome (lint + format)
+- Husky + lint-staged (pre-commit hooks)
+- pnpm (package manager)
 
 ## Getting Started
+Prerequisites: Node.js 18+, pnpm
 
-First, run the development server:
+Clone this repo, then run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm fetch-challenges   # fetches 190 challenges from GitHub
+pnpm dev                # starts dev server at localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Available Scripts
+- pnpm dev: Start development server
+- pnpm build: Production build
+- pnpm start: Start production server
+- pnpm fetch-challenges: Fetch challenge data from GitHub
+- pnpm lint: Run Biome linter
+- pnpm format: Format code with Biome
+- pnpm check: Run all Biome checks
+- pnpm check:fix: Auto-fix all Biome issues
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
+```
+src/
+├── app/                  # Next.js App Router pages
+│   ├── page.tsx          # Challenge list (home)
+│   └── challenges/[slug] # Challenge workspace
+├── components/
+│   ├── challenge/        # Challenge list, card, badge
+│   ├── editor/           # Monaco editor + type checking
+│   └── ui/               # shadcn/ui components
+├── data/                 # Generated challenge JSON data
+├── lib/                  # Data loaders, utilities
+└── types/                # TypeScript type definitions
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
+Challenge data is fetched at build time from the type-challenges GitHub repo, parsed (info.yml + template.ts + test-cases.ts), and served as static pages. The Monaco editor runs TypeScript's language service in a Web Worker to provide real-time type checking. When all type errors resolve to zero, the challenge is marked as passing.
 
-## Learn More
+## Credits
+- https://github.com/type-challenges/type-challenges
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+MIT
