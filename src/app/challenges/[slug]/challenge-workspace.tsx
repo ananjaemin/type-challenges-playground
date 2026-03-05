@@ -286,10 +286,13 @@ export function ChallengeWorkspace({
 											</div>
 											{errors.map((d) => (
 												<div
-													key={`${d.startLineNumber}:${d.startColumn}:${d.message}`}
+													key={`${d.source}:${d.startLineNumber}:${d.startColumn}:${d.message}`}
 													className="rounded-md border border-red-500/20 bg-red-500/5 p-3"
 												>
 													<p className="text-xs text-muted-foreground">
+														<span className="mr-1.5 rounded bg-muted px-1 py-0.5 font-mono text-[10px]">
+															{d.source === "solution" ? "Solution" : "Tests"}
+														</span>
 														Line {d.startLineNumber}, Col {d.startColumn}
 													</p>
 													<p className="mt-1 text-sm text-red-400">{d.message}</p>

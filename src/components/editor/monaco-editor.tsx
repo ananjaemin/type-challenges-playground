@@ -20,6 +20,7 @@ export interface DiagnosticInfo {
 	startLineNumber: number;
 	startColumn: number;
 	severity: "error" | "warning" | "info";
+	source: "solution" | "tests";
 }
 
 function cleanTestCases(testCases: string): string {
@@ -105,22 +106,40 @@ export function TypeChallengeEditor({
 				const worker = await monaco.languages.typescript.getTypeScriptWorker();
 				const client = await worker(testsModel.uri);
 
-				const [semanticDiag, syntaxDiag] = await Promise.all([
+				const [testsSemantic, testsSyntax, solutionSemantic, solutionSyntax] = await Promise.all([
 					client.getSemanticDiagnostics(testsModel.uri.toString()),
 					client.getSyntacticDiagnostics(testsModel.uri.toString()),
+					client.getSemanticDiagnostics(solutionModel.uri.toString()),
+					client.getSyntacticDiagnostics(solutionModel.uri.toString()),
 				]);
 
-				const mapped: DiagnosticInfo[] = [...syntaxDiag, ...semanticDiag].map((d) => {
-					const start = testsModel.getPositionAt(d.start ?? 0);
-					return {
-						message: typeof d.messageText === "string" ? d.messageText : d.messageText.messageText,
-						startLineNumber: start.lineNumber,
-						startColumn: start.column,
-						severity: d.category === 1 ? "error" : d.category === 0 ? "warning" : "info",
-					};
-				});
+				const mapDiagnostics = (
+					diags: {
+						start?: number;
+						messageText: string | { messageText: string };
+						category: number;
+					}[],
+					model: editor.ITextModel,
+					source: DiagnosticInfo["source"],
+				): DiagnosticInfo[] =>
+					diags.map((d) => {
+						const start = model.getPositionAt(d.start ?? 0);
+						return {
+							message:
+								typeof d.messageText === "string" ? d.messageText : d.messageText.messageText,
+							startLineNumber: start.lineNumber,
+							startColumn: start.column,
+							severity: d.category === 1 ? "error" : d.category === 0 ? "warning" : "info",
+							source,
+						};
+					});
 
-				onDiagnosticsChange?.(mapped);
+				const allDiagnostics: DiagnosticInfo[] = [
+					...mapDiagnostics([...solutionSyntax, ...solutionSemantic], solutionModel, "solution"),
+					...mapDiagnostics([...testsSyntax, ...testsSemantic], testsModel, "tests"),
+				];
+
+				onDiagnosticsChange?.(allDiagnostics);
 			} catch {}
 		};
 
